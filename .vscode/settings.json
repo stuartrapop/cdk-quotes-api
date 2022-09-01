@@ -1,0 +1,24 @@
+{
+  "serverlessConsole.services": [
+    {
+      "type": "cloudformation",
+      "title": "test",
+      "timeOffsetInMs": 0,
+      "awsProfile": "TicTacToe",
+      "stacks": [
+        {
+          "region": "eu-central-1",
+          "stackName": "CdkQuotesApiStack",
+          "stage": "dev"
+        }
+      ]
+    },
+    {
+      "type": "dynamodb",
+      "title": "CdkQuotesApiStack-quotestbl6EE10626-KV47915GXJ59",
+      "tableName": "CdkQuotesApiStack-quotestbl6EE10626-KV47915GXJ59",
+      "awsProfile": "TicTacToe",
+      "region": "eu-central-1"
+    }
+  ]
+}
